@@ -1,0 +1,13 @@
+#backgroundImage {
+  position: relative;
+  background-image: url("../assets/images/background-pattern-desktop.svg");
+  background-color: hsl(275, 100%, 97%);
+  background-size: contain; /*this sets width 100% and height 50% */
+  height: 100vh; /* optimises the full height of the screen */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}

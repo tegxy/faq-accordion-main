@@ -1,3 +1,6 @@
+// * {
+//   outline: 1px solid red; //use this as hack to find spilling boxes
+// }
 /* Box sizing rules */
 *,
 *::before,
@@ -25,8 +28,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -45,8 +48,7 @@ body {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -69,6 +71,7 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
+
   *,
   *::before,
   *::after {
@@ -78,26 +81,3 @@ select {
     scroll-behavior: auto !important;
   }
 }
-#backgroundImage {
-  position: relative;
-  background-image: url("../assets/images/background-pattern-desktop.svg");
-  background-color: hsl(275, 100%, 97%);
-  background-size: contain; /*this sets width 100% and height 50% */
-  height: 100vh; /* optimises the full height of the screen */
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-
-main {
-  background-color: hsl(0, 0%, 100%);
-  width: min(56rem, 50%);
-  border-radius: 1rem;
-  padding: 1.5rem;
-}
-main h2 {
-  font-size: 1em;
-}/*# sourceMappingURL=style.css.map */
