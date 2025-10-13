@@ -144,6 +144,10 @@ section:last-of-type {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */
