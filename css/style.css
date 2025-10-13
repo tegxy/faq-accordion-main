@@ -79,6 +79,7 @@ select {
   }
 }
 #backgroundImage {
+  font-family: "work sans", sans-serif;
   position: relative;
   background-image: url("../assets/images/background-pattern-desktop.svg");
   background-color: hsl(275, 100%, 97%);
@@ -98,6 +99,33 @@ main {
   border-radius: 1rem;
   padding: 1.5rem;
 }
-main h2 {
+main .faq-header {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+main h1 {
+  font-weight: 900;
+}
+
+section {
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+section .question {
+  display: flex;
+  justify-content: space-between;
+}
+section h2 {
   font-size: 1em;
+  margin: auto 0;
+  padding: 1.5rem 0;
+}
+section .text {
+  display: none;
+}
+section .text.show {
+  display: block;
+}
+section .icon {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

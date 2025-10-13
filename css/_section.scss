@@ -1,0 +1,26 @@
+section {
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+
+  .question {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h2 {
+    font-size: 1em;
+    margin: auto 0;
+    padding: 1.5rem 0;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .text.show {
+    display: block;
+  }
+
+  .icon {
+    cursor: pointer;
+  }
+}
