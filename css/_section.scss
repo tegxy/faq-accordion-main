@@ -25,3 +25,7 @@ section {
     cursor: pointer;
   }
 }
+
+section:last-of-type {
+  border-bottom: none;
+}
