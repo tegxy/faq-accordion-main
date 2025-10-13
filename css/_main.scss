@@ -5,14 +5,20 @@ main {
   width: min(56rem, 50%); // this is similar to the width options above
   border-radius: 1rem;
   padding: 1.5rem;
+  margin: auto 0;
 
   .faq-header {
     display: flex;
-    width: 25%;
+    width: 7rem;
+    max-width: 25%;
     justify-content: space-between;
   }
 
+  .header-icon {
+    width: 1.5rem;
+  }
+
   h1 {
-    font-weight: 900;
+    font-weight: 700;
   }
 }

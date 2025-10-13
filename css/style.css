@@ -88,9 +88,8 @@ select {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin: 0;
+  justify-content: space-between;
 }
 
 main {
@@ -98,14 +97,19 @@ main {
   width: min(56rem, 50%);
   border-radius: 1rem;
   padding: 1.5rem;
+  margin: auto 0;
 }
 main .faq-header {
   display: flex;
-  width: 25%;
+  width: 7rem;
+  max-width: 25%;
   justify-content: space-between;
 }
+main .header-icon {
+  width: 1.5rem;
+}
 main h1 {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 section {
@@ -119,6 +123,7 @@ section h2 {
   font-size: 1em;
   margin: auto 0;
   padding: 1.5rem 0;
+  font-weight: 600;
 }
 section .text {
   display: none;
@@ -128,4 +133,13 @@ section .text.show {
 }
 section .icon {
   cursor: pointer;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */
