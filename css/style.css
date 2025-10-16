@@ -156,9 +156,10 @@ a {
 @media (max-width: 768px) {
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
+    height: 100%;
   }
   main {
     width: min(600px, 80%);
-    margin-top: 30%;
+    margin: 30% 0;
   }
 }/*# sourceMappingURL=style.css.map */
