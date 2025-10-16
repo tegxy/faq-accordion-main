@@ -1,11 +1,13 @@
 @media (max-width: 768px) {
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
-    height: 100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    justify-content: space-between;
   }
 
   main {
     width: min(600px, 80%); //this picks the minimum of the two values
-    margin: 30% 0;
   }
 }
