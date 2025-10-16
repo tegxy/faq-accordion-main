@@ -14,7 +14,7 @@ icons.forEach((icon) => {
       let otherText = otherDiv.querySelector(".text");
       // .closest() goes up the DOM tree to find the nearest ancestor that matches the selector
       if (otherIcon !== icon) {
-        otherIcon.src = "../faq-accordion-main/assets/images/icon-plus.svg";
+        otherIcon.src = "./assets/images/icon-plus.svg";
         otherText.classList.remove("show");
       }
     });
@@ -29,11 +29,11 @@ icons.forEach((icon) => {
     //this is the magic part
     if (isOpen) {
       // if minus change to plus and hide text
-      icon.src = "../faq-accordion-main/assets/images/icon-plus.svg";
+      icon.src = "./assets/images/icon-plus.svg";
       clickedText.classList.remove("show");
     } else {
       // if plus change to minus and show text
-      icon.src = "../faq-accordion-main/assets/images/icon-minus.svg";
+      icon.src = "./assets/images/icon-minus.svg";
       clickedText.classList.add("show");
     }
   };
