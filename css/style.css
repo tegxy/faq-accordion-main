@@ -159,5 +159,6 @@ a {
   }
   main {
     width: min(600px, 80%);
+    margin-top: 30%;
   }
 }/*# sourceMappingURL=style.css.map */
