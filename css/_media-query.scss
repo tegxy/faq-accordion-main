@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  #backgroundImage {
+    background-image: url("../assets/images/background-pattern-mobile.svg");
+  }
+
+  main {
+    width: min(600px, 80%); //this picks the minimum of the two values
+  }
+}

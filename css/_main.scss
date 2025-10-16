@@ -2,7 +2,10 @@ main {
   background-color: hsl(0, 0%, 100%);
   //   width: 56rem;
   //   max-width: 50%;
-  width: min(56rem, 50%); // this is similar to the width options above
+  width: min(
+    56rem,
+    50%
+  ); // this is similar to the width options above. It takes the minimum of the two values
   border-radius: 1rem;
   padding: 1.5rem;
   margin: auto 0;

@@ -130,6 +130,7 @@ section .text {
 }
 section .text.show {
   display: block;
+  color: hsl(292, 16%, 49%);
 }
 section .icon {
   cursor: pointer;
@@ -150,4 +151,13 @@ a {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+  #backgroundImage {
+    background-image: url("../assets/images/background-pattern-mobile.svg");
+  }
+  main {
+    width: min(600px, 80%);
+  }
 }/*# sourceMappingURL=style.css.map */
