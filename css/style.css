@@ -167,6 +167,6 @@ a {
     flex-shrink: 0;
   }
   .attribution {
-    display: none;
+    flex-shrink: 0;
   }
 }/*# sourceMappingURL=style.css.map */
