@@ -164,8 +164,9 @@ a {
   }
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
-    background-size: cover;
     padding: 1rem;
+    background-position: top center;
+    box-sizing: border-box;
   }
   main {
     display: none;
