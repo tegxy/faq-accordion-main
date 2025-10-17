@@ -1,3 +1,7 @@
+* {
+  outline: 1px solid red !important;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -167,7 +171,6 @@ a {
     flex-shrink: 0;
   }
   .attribution {
-    margin-bottom: 1rem;
     flex-shrink: 0;
   }
 }/*# sourceMappingURL=style.css.map */
