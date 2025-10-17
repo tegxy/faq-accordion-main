@@ -1,25 +1,20 @@
 @media (max-width: 768px) {
-  body {
-    // overflow-x: hidden; /* Still prevent horizontal scroll */
-    overflow-y: auto; /* Allow vertical scroll */
-  }
+  // body {
+  //   // overflow-x: hidden; /* Still prevent horizontal scroll */
+  //   overflow-y: auto; /* Allow vertical scroll */
+  // }
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
     height: 100dvh;
-    // background-image: none;
-
     box-sizing: border-box;
   }
 
   main {
     width: min(600px, 80%); //this picks the minimum of the two values
     flex-shrink: 0;
-    // display: none;
   }
 
   .attribution {
-    // margin-bottom: 1rem;
     flex-shrink: 0;
-    // display: none;
   }
 }

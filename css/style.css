@@ -1,7 +1,3 @@
-* {
-  outline: 1px solid red !important;
-}
-
 /* Box sizing rules */
 *,
 *::before,
@@ -158,9 +154,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  body {
-    overflow-y: auto; /* Allow vertical scroll */
-  }
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
     height: 100dvh;
