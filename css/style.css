@@ -164,6 +164,8 @@ a {
   }
   main {
     width: min(600px, 80%);
+    margin-top: auto;
+    margin-bottom: 2rem; /* Give space between main and footer */
   }
   .attribution {
     margin-bottom: 1rem;

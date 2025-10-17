@@ -14,6 +14,8 @@
 
   main {
     width: min(600px, 80%); //this picks the minimum of the two values
+    margin-top: auto;
+    margin-bottom: 2rem; /* Give space between main and footer */
   }
 
   .attribution {
