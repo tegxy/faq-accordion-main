@@ -163,7 +163,7 @@ a {
   }
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
-    height: 100vh;
+    height: 100dvh;
     box-sizing: border-box;
   }
   main {
