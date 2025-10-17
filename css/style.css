@@ -167,8 +167,7 @@ a {
     padding: 1rem;
   }
   main {
-    width: min(600px, 80%);
-    flex-shrink: 0;
+    display: none;
   }
   .attribution {
     display: none;
