@@ -10,13 +10,13 @@
     // place-items: center;
     // justify-content: space-between;
     min-height: 100vh;
-    gap: 1.5rem;
+
     padding: 1rem;
   }
 
   main {
     width: min(600px, 80%); //this picks the minimum of the two values
-    margin: 0;
+
     flex-shrink: 0;
   }
 
