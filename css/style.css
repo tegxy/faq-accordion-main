@@ -158,10 +158,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  body {
-    overflow-x: hidden; /* Still prevent horizontal scroll */
-    overflow-y: auto; /* Allow vertical scroll */
-  }
   #backgroundImage {
     background-image: none;
     box-sizing: border-box;
