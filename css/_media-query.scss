@@ -4,10 +4,11 @@
     overflow-y: auto; /* Allow vertical scroll */
   }
   #backgroundImage {
-    background-image: url("../assets/images/background-pattern-mobile.svg");
+    // background-image: url("../assets/images/background-pattern-mobile.svg");
     // min-height: 100vh;
+    background-image: none;
     padding: 1rem;
-    background-position: top center;
+
     box-sizing: border-box;
   }
 

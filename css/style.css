@@ -163,9 +163,8 @@ a {
     overflow-y: auto; /* Allow vertical scroll */
   }
   #backgroundImage {
-    background-image: url("../assets/images/background-pattern-mobile.svg");
+    background-image: none;
     padding: 1rem;
-    background-position: top center;
     box-sizing: border-box;
   }
   main {
