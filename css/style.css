@@ -156,10 +156,6 @@ a {
 @media (max-width: 768px) {
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
-    display: grid;
-    place-content: center;
-    place-items: center;
-    justify-content: space-between;
   }
   main {
     width: min(600px, 80%);
