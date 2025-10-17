@@ -4,17 +4,17 @@
   //   overflow-y: auto; /* Allow vertical scroll */
   // }
   #backgroundImage {
-    // background-image: url("../assets/images/background-pattern-mobile.svg");
+    background-image: url("../assets/images/background-pattern-mobile.svg");
     // min-height: 100vh;
-    background-image: none;
+    // background-image: none;
 
     box-sizing: border-box;
   }
 
   main {
     // width: min(600px, 80%); //this picks the minimum of the two values
-    // flex-shrink: 0;
-    display: none;
+    flex-shrink: 0;
+    // display: none;
   }
 
   .attribution {

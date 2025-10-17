@@ -159,11 +159,11 @@ a {
 
 @media (max-width: 768px) {
   #backgroundImage {
-    background-image: none;
+    background-image: url("../assets/images/background-pattern-mobile.svg");
     box-sizing: border-box;
   }
   main {
-    display: none;
+    flex-shrink: 0;
   }
   .attribution {
     display: none;
