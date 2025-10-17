@@ -154,8 +154,13 @@ a {
 }
 
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden; /* Still prevent horizontal scroll */
+    overflow-y: auto; /* Allow vertical scroll */
+  }
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
+    min-height: 100vh;
   }
   main {
     width: min(600px, 80%);

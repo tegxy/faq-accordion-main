@@ -1,10 +1,15 @@
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden; /* Still prevent horizontal scroll */
+    overflow-y: auto; /* Allow vertical scroll */
+  }
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
     // display: grid;
     // place-content: center;
     // place-items: center;
     // justify-content: space-between;
+    min-height: 100vh;
   }
 
   main {
