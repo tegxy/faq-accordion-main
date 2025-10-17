@@ -164,6 +164,8 @@ a {
   }
   main {
     width: min(600px, 80%);
-    margin-bottom: 2rem;
+  }
+  .attribution {
+    margin-bottom: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
