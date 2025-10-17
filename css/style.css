@@ -171,6 +171,6 @@ a {
     flex-shrink: 0;
   }
   .attribution {
-    flex-shrink: 0;
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
