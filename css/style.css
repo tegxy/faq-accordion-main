@@ -160,7 +160,6 @@ a {
   }
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
-    min-height: 100vh;
     padding: 1rem;
   }
   main {
