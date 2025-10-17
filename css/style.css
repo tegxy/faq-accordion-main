@@ -163,6 +163,7 @@ a {
     box-sizing: border-box;
   }
   main {
+    width: min(600px, 80%);
     flex-shrink: 0;
   }
   .attribution {

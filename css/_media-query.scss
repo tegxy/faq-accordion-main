@@ -12,7 +12,7 @@
   }
 
   main {
-    // width: min(600px, 80%); //this picks the minimum of the two values
+    width: min(600px, 80%); //this picks the minimum of the two values
     flex-shrink: 0;
     // display: none;
   }
