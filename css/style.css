@@ -161,13 +161,16 @@ a {
   #backgroundImage {
     background-image: url("../assets/images/background-pattern-mobile.svg");
     min-height: 100vh;
+    gap: 1.5rem;
+    padding: 1rem;
   }
   main {
     width: min(600px, 80%);
-    margin-top: auto;
-    margin-bottom: 2rem; /* Give space between main and footer */
+    margin: 0;
+    flex-shrink: 0;
   }
   .attribution {
     margin-bottom: 1rem;
+    flex-shrink: 0;
   }
 }/*# sourceMappingURL=style.css.map */
