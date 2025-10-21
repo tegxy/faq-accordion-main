@@ -1,5 +1,5 @@
 section {
-  border-bottom: 1px solid hsl(0, 0%, 80%);
+  border-bottom: 0.06rem solid hsl(0, 0%, 80%);
 
   .question {
     display: flex;
@@ -27,6 +27,7 @@ section {
   }
 }
 
+//this css property selects the last div of type (section in this case) and removes the border-bottom
 section:last-of-type {
   border-bottom: none;
 }

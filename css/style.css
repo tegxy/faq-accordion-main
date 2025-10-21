@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "work sans", sans-serif;
 }
 
 /* Remove default margin */
@@ -113,7 +113,7 @@ main h1 {
 }
 
 section {
-  border-bottom: 1px solid hsl(0, 0%, 80%);
+  border-bottom: 0.06rem solid hsl(0, 0%, 80%);
 }
 section .question {
   display: flex;
